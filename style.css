@@ -39,9 +39,9 @@ h1{
     background-color: red;
     display:none;
 }
-body:hover .red {
+body:active .red {
     display: block;
 }
-body:hover .yellow {
+body:active .yellow {
     display: block;
 }
