@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+    transition: all .3s ease-out;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    border: 6px solid grey;
+    min-width: 300px;
+    min-height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+    gap: 20px;
+    padding: 20px;
+}
+.led{
+    transition: all .3s ease-out;
+    background-color: green;
+    min-width: 60px;
+    min-height: 200px;
+}
+.yellow{
+    background-color: yellow;
+    display:none;
+}
+.red{
+    background-color: red;
+    display:none;
+}
+body:hover .red {
+    display: block;
+}
+body:hover .yellow {
+    display: block;
+}
